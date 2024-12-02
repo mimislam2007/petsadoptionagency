@@ -1,0 +1,22 @@
+html,body{
+  height: 99%;
+  width: 99%;
+  background-color: #171614;
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color: #3A2618 ;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #37423D;
+  box-shadow: 1px 3px 30px 1px #563635;
+  outline: 10px 10px #563635;
+  text-transform: capitalize;
+  text-color: #37423D;
+  text-shadow: 1px 1px #563635 ;
+  font-family: fantasy;
+  height: 150px;
+  text-align: right;
+  font-style: oblique;
