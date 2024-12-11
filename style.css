@@ -6,3 +6,78 @@ html,body{
 *{
   box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff7f50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#pets-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.pet-category {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pet-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.pet-box {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.pet-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pet-box h3 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+.pet-box p {
+    color: #888;
+    font-size: 0.9rem;
+}
