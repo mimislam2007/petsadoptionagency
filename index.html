@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-  
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PetNap Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>PetNap</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <link href="PetNap.jpg" rel="icon" type="image/png">
-      </head>
+    <header>
+        <h1>Welcome to PetNap Adoption Center</h1>
+        <p>Find your new best friend here!</p>
+    </header>
+
+    <section id="pets-section">
+        <div id="cats" class="pet-category">
+            <h2>Cats</h2>
+            <div class="pet-container" id="cats-container"></div>
+        </div>
+        
+        <div id="dogs" class="pet-category">
+            <h2>Dogs</h2>
+            <div class="pet-container" id="dogs-container"></div>
+        </div>
+        
+        <div id="hamsters" class="pet-category">
+            <h2>Hamsters</h2>
+            <div class="pet-container" id="hamsters-container"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
